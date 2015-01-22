@@ -1,4 +1,12 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
 body {
+  font-family: 'Radley', serif;
+  background-color: #636363;
+  background-image: url(http://www.transparenttextures.com/patterns/gray-floral.png);
+  font-size: 1.8em; 
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -36,7 +44,10 @@ body {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 760px;
   }
 }
 .container-narrow > hr {
